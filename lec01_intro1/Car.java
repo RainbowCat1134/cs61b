@@ -34,7 +34,6 @@ public class Car {
         c1.drive();
         c1.driveIntoDitch(2);
         c1.drive();
-
         System.out.println(c2.getNumWheels());
     }
 }
