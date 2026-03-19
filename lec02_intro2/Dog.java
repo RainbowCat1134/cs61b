@@ -9,11 +9,8 @@ public class Dog {
     //构造函数
 
     public void makeNoise(){
-    //此处不是静态static
-    //静态方法是通用的，适用于class的所有实例，对应的调用就是<class name>.<invocation method>(<parameter>);
-    //非静态方法是特定的 specific，只针对一个实例，对应的调用就是
-    // <class name> <variable name> = new <class name>(<parameter>);
-    // <variable name>.<invocation method>(<parameter>);
+    // 非静态方法依赖于类的实例，需要通过对象来调用。
+    // 静态方法与类本身相关，可以直接通过类名调用，而不依赖于实例。
         if(weightInPounds < 10){
             System.out.println("yipyipyip");
         }
@@ -33,6 +30,7 @@ public class Dog {
             return d2;
         }
     }
+
     //也可以写成非静态的
     public Dog maxDog(Dog d2){
         if(weightInPounds > d2.weightInPounds){
@@ -42,7 +40,7 @@ public class Dog {
             return d2;
         }
     }
-    //static定义了类属性，非static定义了实例属性
-    //Q：maxDog被定义了两次，编译器是如何处理的？
-    //A：这称为重载(overloaded，我更喜欢过载这个翻译)了这个方法，编译器会看参数数量来确定调用哪个方法
+    // 静态方法和变量属于类，非静态方法和变量属于实例。
+    // Q：maxDog被定义了两次，编译器是如何处理的？
+    // A：这是方法重载（Overloading），根据方法的参数数量和类型，编译器会选择适当的版本来调用。
 }
