@@ -1,8 +1,8 @@
 public class DogLauncher {
 
     public static void main(String[] args){
-        //因为Dog class不是静态，所以需要实例，反之如果是静态则无需实例也可以
-        //后续构造了Dog函数，所以就不需要实例了，这是两种初始化的方式
+        // Dog 类是非静态类，因此需要实例化才能使用其成员（方法和属性）。如果类是静态的，
+        // 那么可以直接通过类名调用静态方法，无需实例化类。
         Dog smallDog; //声明一个Dog变量
         new Dog(20); //初始化但没有分配给变量，程序结束后将被自动回收
         smallDog = new Dog(5); //初始化并分配给smallDog变量
@@ -23,10 +23,10 @@ public class DogLauncher {
         Dog chester = new Dog(17);
         Dog Yusuf = new Dog(150);
         System.out.println("------------");
-        Dog heavier = Dog.maxDog(chester, Yusuf);
+        Dog heavier = Dog.maxDog(chester, Yusuf); // 调用静态方法 maxDog，比较 chester 和 Yusuf 的体重并返回较重的 Dog 对象
         heavier.makeNoise();
         System.out.println("------------");
-        Dog larger = chester.maxDog(Yusuf);
+        Dog larger = chester.maxDog(Yusuf); // 调用实例方法 maxDog，通过 chester 对象来比较 chester 和 Yusuf 的体重，返回较重的 Dog 对象
         larger.makeNoise();
     }
 }
