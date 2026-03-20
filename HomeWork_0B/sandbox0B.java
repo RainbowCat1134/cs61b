@@ -18,7 +18,7 @@ public class sandbox0B {
         public double distanceTo(Point other) {
             return Math.sqrt(
                     Math.pow(this.x - other.y, 2) +
-                            Math.pow(this.y - other.y, 2)
+                    Math.pow(this.y - other.y, 2)
             );
         }
 
