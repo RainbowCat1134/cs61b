@@ -29,5 +29,4 @@ public class DogLauncher {
         Dog larger = chester.maxDog(Yusuf); // 调用实例方法 maxDog，通过 chester 对象来比较 chester 和 Yusuf 的体重，返回较重的 Dog 对象
         larger.makeNoise();
     }
-    
 }
