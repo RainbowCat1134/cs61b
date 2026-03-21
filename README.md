@@ -1,18 +1,67 @@
-This is CS61B practises repository.
-I'm trying to go through the whole course and upload stuffs like homeworks and labs codes, containing my comments.
-Hope this repository will help u for learning CS61B :D
+# 📘 CS61B Self-Study Repository
+This repository documents my self-study journey through  
+**CS61B: Data Structures (UC Berkeley)**.
 
-Official textbooks: https://cs61b-2.gitbook.io/cs61b-textbook/1.-introduction/1.2-java-workflow
-Weekly schedules: https://sp24.datastructur.es/ (You can get all resources you need here.)
+It includes:
+- Homework solutions
+- Lab implementations
+- Code with detailed personal comments
 
-IDE = IntelliJ, using GIT for commiting & pushing(still learning).
-If you have any suggestion, please leave a comment. 
+---
 
-Time consumpion: 2-3 hours per day, including watching videos, reading textbooks, writing homeworks, labs, uploading codes.
+## 🔗 Resources
 
-    2026.3.21
+- 📖 Official Textbook  
+  https://cs61b-2.gitbook.io/cs61b-textbook/
 
+- 📅 Course Website (Spring 2024)  
+  https://sp24.datastructur.es/
 
+---
+
+## ⚙️ Environment
+
+- IDE: IntelliJ IDEA  
+- Version Control: Git & GitHub  
+
+---
+
+## 📊 Study Plan
+
+- ⏱ 2–3 hours per day  
+- Activities:
+  - Watching lectures  
+  - Reading textbook  
+  - Completing assignments (HW & Labs)  
+  - Reviewing and improving code  
+
+---
+
+## 📈 Progress
+
+- **2026.03.16 – Present**
+  - Java basics  
+  - Lists & Arrays  
+  - Maps & Sets  
+
+(Continuously updating…)
+
+---
+
+## 👤 About Me
+
+- CS undergraduate (Year 2)  
+- Transferred into CS after first year  
+
+---
+
+## 💬 Contribution / Feedback
+
+If you have any suggestions or ideas, feel free to open an issue or leave a comment.
+
+---
+
+## 写在最后
 感谢CS自学指南和各高校的公开教学视频（南大，UCB，Stanford等等），使所有人都能找到一份切实可行的前行指南并按需求自学。
 目前本科CS大二，大一下转的专业。
 
@@ -22,12 +71,10 @@ Time consumpion: 2-3 hours per day, including watching videos, reading textbooks
 后来尝试写一个贪吃蛇游戏，看到一大堆的class，不认识的头文件，完全就是burnout无从下手的感觉。
 
 好在发现了CS自学指南，先学习了GIT（网址：https://learngitbranching.js.org/?locale=zh_CN），
-然后下定决心学习CS61B，并坚持了一段时间，遇到问题就问AI。
-我无比赞同这句话：
-“而这一切，没有学分，没有绩点，没有老师，没有同学，只有一个信念 —— 你在变强。”
-第一次翘课学校如史的人工智能课，在宿舍学CS188，虽然被发现了但还是感觉很开心）
+然后下定决心学习CS61B，并坚持了一段时间，过程中大量借助AI解决问题，效率显著提升。
+我无比赞同这句话：“而这一切，没有学分，没有绩点，没有老师，没有同学，只有一个信念 —— 你在变强。”
 引用上海交通大学生存手册的一句话：“真正能成为我们上课理由的，只有我们对科学文化知识的渴望。”
-与其浪费时间，不如自学点更好的。
+与其浪费时间，不如投入到更有价值的学习中。
 
 最后，感谢Silvsange）suki！
     
