@@ -73,7 +73,7 @@ public class JavaExercises {
         if(n == 1){
             return;
         }
-        else if(n % 2 ==0){
+        else if(n % 2 == 0){
             hailstoneHelper(n / 2, lst);
         }
         else{
