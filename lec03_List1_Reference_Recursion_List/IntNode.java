@@ -1,5 +1,5 @@
-import java.util.*;
-public IntNode{
+//import java.util.*;
+//public IntNode{
 //    public static double average(double a, double b){
 //        return (a + b) / 2;
 //    }
@@ -94,4 +94,4 @@ public IntNode{
 //
 //
 //    }
-}
+//}
