@@ -1,6 +1,13 @@
+
+/*
+    可写成
+    public class SLList<Generics>{}
+    Generics，即泛型，可以解决代码难以扩展的问题
+    使用泛型则使链表可以处理所有基本类型，以及引用类型的数据
+*/
 public class SLList {
 
-    private static  class IntNode {
+    private static class IntNode {
         public int item;
         public IntNode next;
 
